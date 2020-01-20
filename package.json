@@ -5,34 +5,46 @@
   "version": "1.0.9",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sutoiku/formula.js.git"
+    "url": "git+ssh://git@github.com/sutoiku/formula.js.git"
   },
   "main": "dist/formula.js",
   "bin": {
-    "implementation-stats": "./bin/implementation-stats"
+    "implementation-stats": "bin/implementation-stats"
   },
   "dependencies": {
-    "bessel": "0.2.0",
-    "jStat": "1.0.6",
+    "bessel": "^0.2.0",
+    "istanbul": "^0.4.5",
+    "jStat": "^1.8.6",
     "numeral": "1.5.3",
     "numeric": "1.2.6"
   },
   "devDependencies": {
-    "istanbul": "*",
-    "mocha": "*",
-    "should": "*",
-    "coveralls": "^2.11.1",
-    "jshint": "^2.5.2",
-    "mocha-lcov-reporter": "0.0.1",
     "blanket": "^1.1.6",
     "cli-table": "^0.3.0",
+    "coveralls": "^3.0.9",
+    "jshint": "^2.11.0",
+    "mocha": "*",
+    "mocha-lcov-reporter": "0.0.1",
     "mocha-spec-cov": "0.0.3",
-    "webpack": "^1.4.0"
+    "should": "*",
+    "webpack": "^4.41.5"
   },
   "config": {
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/sutoiku/formula.js/issues"
+  },
+  "homepage": "https://github.com/sutoiku/formula.js#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
