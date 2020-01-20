@@ -1,5 +1,5 @@
 {
-  "proto": true,
+  "esversion": 6,
   "browser": true,
   "curly": true,
   "devel": true,
@@ -7,6 +7,7 @@
   "eqnull": true,
   "es5": false,
   "evil": false,
+  "expr": true,
   "immed": false,
   "jquery": true,
   "latedef": false,
@@ -15,8 +16,7 @@
   "node": true,
   "noempty": false,
   "nonew": true,
-  "predef":
-  [
+  "predef": [
     "after",
     "afterEach",
     "before",
@@ -27,11 +27,12 @@
     "par",
     "each"
   ],
+  "proto": true,
+  "quotmark": false,
   "smarttabs": true,
+  "strict": false,
   "trailing": false,
   "undef": true,
   "unused": true,
-  "strict": false,
-  "quotmark": false,
-  "expr": true
+  "varstmt": true
 }
